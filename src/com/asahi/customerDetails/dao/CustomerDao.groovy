@@ -4,10 +4,10 @@ import com.asahi.customerDetails.entity.Customer
 import groovy.sql.GroovyRowResult
 import groovy.sql.Sql
 
-
-class CustomerDaoClass implements CustomerDao ,DataConnection{
+class CustomerDaoImpl implements CustomerDao, DataConnection {
 
     def sql
+
     @Override
     def createCustomer(Customer customer) {
 
@@ -17,10 +17,10 @@ class CustomerDaoClass implements CustomerDao ,DataConnection{
 
         sql.execute("INSERT INTO customer (name,email,mobile_number) VALUES (${customer.name},${customer.email},${customer.mobile_number})")
 
-        List<GroovyRowResult>  createdUser = sql.rows("select * from customer where email = ${customer.email}")
+        List<GroovyRowResult> createdUser = sql.rows("select * from customer where email = ${customer.email}")
 
         createdUser.each {
-           user = it.id
+            user = it.id
         }
         return user
     }
@@ -29,9 +29,9 @@ class CustomerDaoClass implements CustomerDao ,DataConnection{
     def deleteCustomer(int id) {
         sql = dbconnection()
 
-        if(sql.executeUpdate("delete from customer where id = ${id}") == 0 ){
+        if (sql.executeUpdate("delete from customer where id = ${id}") == 0) {
             return false
-        }else true
+        } else true
     }
 
     @Override
@@ -40,7 +40,7 @@ class CustomerDaoClass implements CustomerDao ,DataConnection{
 
         List<GroovyRowResult> allCustomers = sql.rows("select * from customer")
 
-       // return allCustomers
+        // return allCustomers
     }
 
     @Override
@@ -57,45 +57,69 @@ class CustomerDaoClass implements CustomerDao ,DataConnection{
 
         List<GroovyRowResult> count = sql.rows("select * from customer where id = ${idToUpdate}")
 
-        if(count.size() == 0){
+        if (count.size() == 0) {
             return false
-        }else true
+        } else true
     }
 
     @Override
     def emailUpdate(int idToUpdate, String emailToUpdate) {
         sql = dbconnection()
 
-        if(sql.executeUpdate("UPDATE customer SET email = ${emailToUpdate} where id = ${idToUpdate}") == 0){
+        if (sql.executeUpdate("UPDATE customer SET email = ${emailToUpdate} where id = ${idToUpdate}") == 0) {
             return false
-        }else true
+        } else true
     }
 
     @Override
     def mobNumberUpdate(int idToUpdate, long mobNumberToUpdate) {
         sql = dbconnection()
 
-        if(sql.executeUpdate("UPDATE customer SET mobile_number = ${mobNumberToUpdate} where id = ${idToUpdate}") == 0){
+        if (sql.executeUpdate("UPDATE customer SET mobile_number = ${mobNumberToUpdate} where id = ${idToUpdate}") == 0) {
             return false
-        }else true
+        } else true
     }
 }
 
-trait CustomerDao{
+trait CustomerDao {
     abstract createCustomer(Customer customer)
+
     abstract deleteCustomer(int id)
+
     abstract readAllCustomers()
+
     abstract searchCustomer(int id)
+
     abstract idCheckerForUpdation(int idToUpdate)
+
     abstract emailUpdate(int idToUpdate, String emailToUpdate)
+
     abstract mobNumberUpdate(int idToUpdate, long mobNumberToUpdate)
 }
 
-trait DataConnection{
 
-    String username = "root"
-    String password = "root"
-    def dbconnection(){
-        return Sql.newInstance("jdbc:mysql://localhost:3306/groovytask", username,password,"com.mysql.jdbc.Driver")
+trait DataConnection {
+
+    def dbconnection() {
+
+        Properties properties = new Properties()
+
+        def props = "src/dataconnection.properties"
+        File propertiesFile
+        propertiesFile = new File(props)
+
+
+        propertiesFile.withInputStream {
+            properties.load(it)
+
+        }
+
+        def dburl = properties.dburl
+        def username = properties.username
+        def password = properties.password
+        def driverInstance = properties.driverInstance
+
+
+        return Sql.newInstance(dburl,username, password, driverInstance)
     }
 }

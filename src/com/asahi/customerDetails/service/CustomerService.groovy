@@ -1,15 +1,15 @@
 package com.asahi.customerDetails.service
 
 import com.asahi.customerDetails.dao.CustomerDao
-import com.asahi.customerDetails.dao.CustomerDaoClass
+import com.asahi.customerDetails.dao.CustomerDaoImpl
 import com.asahi.customerDetails.entity.Customer
 
-class CustomerServiceClass implements CustomerService {
+class CustomerServiceImpl implements CustomerService {
 
     CustomerDao customerDao
 
-    CustomerServiceClass() {
-        customerDao = new CustomerDaoClass()
+    CustomerServiceImpl() {
+        customerDao = new CustomerDaoImpl()
     }
 
     @Override

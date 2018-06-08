@@ -2,13 +2,13 @@ package com.asahi.customerDetails.controller
 
 import com.asahi.customerDetails.entity.Customer
 import com.asahi.customerDetails.service.CustomerService
-import com.asahi.customerDetails.service.CustomerServiceClass
+import com.asahi.customerDetails.service.CustomerServiceImpl
 
 class CustomerController {
     CustomerService customerService
 
     CustomerController(){
-        customerService = new CustomerServiceClass()
+        customerService = new CustomerServiceImpl()
     }
 
     def createCustomer(Customer customer){

@@ -5,12 +5,12 @@ import com.asahi.customerDetails.entity.Customer
 
 import java.util.regex.Pattern
 
-class MainClass {
+class CustomerApp {
 
     Scanner scanner
     CustomerController customerController
 
-    MainClass() {
+    CustomerApp() {
         scanner = new Scanner(System.in)
         customerController = new CustomerController()
     }
