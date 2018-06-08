@@ -2,26 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b5d44a0-fbf6-48d5-bcbc-ad8177468569" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dataconnection.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Customer-Management-CRUD/MainApp/CustomerMain.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Customer-Management-CRUD/com/asahi/customerDetails/controller/CustomerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Customer-Management-CRUD/com/asahi/customerDetails/controller/CustomerController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Customer-Management-CRUD/com/asahi/customerDetails/dao/CustomerDaoClass$_createCustomer_closure1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Customer-Management-CRUD/com/asahi/customerDetails/dao/CustomerDaoClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Customer-Management-CRUD/com/asahi/customerDetails/dao/DataConnection$Trait$FieldHelper.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Customer-Management-CRUD/com/asahi/customerDetails/dao/DataConnection$Trait$Helper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Customer-Management-CRUD/com/asahi/customerDetails/dao/DataConnection$Trait$Helper.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Customer-Management-CRUD/com/asahi/customerDetails/dao/DataConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Customer-Management-CRUD/com/asahi/customerDetails/dao/DataConnection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Customer-Management-CRUD/com/asahi/customerDetails/service/CustomerServiceClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Customer-Management-CRUD/com/asahi/customerDetails/view/MainClass$_readAllCustomers_closure1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Customer-Management-CRUD/com/asahi/customerDetails/view/MainClass$_searchCustomer_closure2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Customer-Management-CRUD/com/asahi/customerDetails/view/MainClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainApp/mainScript.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/CustomerApplication/mainScript.groovy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/asahi/customerDetails/controller/CustomerController.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/asahi/customerDetails/controller/CustomerController.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CustomerApplication/mainScript.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainApp/mainScript.groovy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/asahi/customerDetails/dao/CustomerDao.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/asahi/customerDetails/dao/CustomerDao.groovy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/asahi/customerDetails/service/CustomerService.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/asahi/customerDetails/service/CustomerService.groovy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/asahi/customerDetails/view/MainClass.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/asahi/customerDetails/view/CustomerApp.groovy" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,20 +31,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Customer.groovy" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Customer.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/asahi/customerDetails/entity/Customer.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+            <state>
+              <caret column="40" lean-forward="true" selection-start-column="40" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CustomerDao.groovy" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CustomerDao.groovy" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/asahi/customerDetails/dao/CustomerDao.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="111" column="40" lean-forward="true" selection-start-line="111" selection-start-column="40" selection-end-line="111" selection-end-column="40" />
+            <state relative-caret-position="342">
+              <caret line="98" lean-forward="true" selection-start-line="98" selection-end-line="98" />
               <folding>
                 <element signature="e#39#87#0" expanded="true" />
               </folding>
@@ -88,7 +74,7 @@
         </entry>
       </file>
       <file leaf-file-name="mainScript.groovy" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CustomerApplication/mainScript.groovy">
+        <entry file="file://$PROJECT_DIR$/src/MainApp/mainScript.groovy">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="216">
               <caret line="12" selection-start-line="12" selection-end-line="12" />
@@ -129,9 +115,9 @@
         <option value="$PROJECT_DIR$/src/com/asahi/customerDetails/view/MainClass.groovy" />
         <option value="$PROJECT_DIR$/src/com/asahi/customerDetails/controller/CustomerController.groovy" />
         <option value="$PROJECT_DIR$/src/dataconnection.properties" />
-        <option value="$PROJECT_DIR$/src/com/asahi/customerDetails/dao/CustomerDao.groovy" />
         <option value="$PROJECT_DIR$/src/com/asahi/customerDetails/service/CustomerService.groovy" />
         <option value="$PROJECT_DIR$/src/com/asahi/customerDetails/view/CustomerApp.groovy" />
+        <option value="$PROJECT_DIR$/src/com/asahi/customerDetails/dao/CustomerDao.groovy" />
       </list>
     </option>
   </component>
@@ -171,13 +157,6 @@
               <item name="Customer-Management-CRUD" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="customerDetails" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Customer-Management-CRUD" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Customer-Management-CRUD" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="customerDetails" type="462c0819:PsiDirectoryNode" />
               <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -192,36 +171,7 @@
               <item name="Customer-Management-CRUD" type="b2602c69:ProjectViewProjectNode" />
               <item name="Customer-Management-CRUD" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="customerDetails" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Customer-Management-CRUD" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Customer-Management-CRUD" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="customerDetails" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Customer-Management-CRUD" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Customer-Management-CRUD" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="customerDetails" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="CustomerService.groovy" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="Customer-Management-CRUD" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Customer-Management-CRUD" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="customerDetails" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Customer-Management-CRUD" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Customer-Management-CRUD" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="CustomerApplication" type="462c0819:PsiDirectoryNode" />
+              <item name="MainApp" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -261,12 +211,12 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
     <configuration name="CustomerMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CustomerApplication.CustomerMain" />
+      <option name="MAIN_CLASS_NAME" value="MainApp.CustomerMain" />
       <module name="Customer-Management-CRUD" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CustomerApplication.*" />
+          <option name="PATTERN" value="MainApp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -329,6 +279,14 @@
       <option name="presentableId" value="Default" />
       <updated>1527670537630</updated>
     </task>
+    <task id="LOCAL-00001" summary="Commit After Some conventions said by Lead">
+      <created>1528454486532</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1528454486532</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -337,18 +295,18 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32917318" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.31669268" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32970452" />
+      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.32917318" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32917318" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23828435" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23828435" />
       <window_info id="Learn" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -366,6 +324,11 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Commit After Some conventions said by Lead" />
+    <MESSAGE value="commited again" />
+    <option name="LAST_COMMIT_MESSAGE" value="commited again" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/asahi/customerDetails/view/CustomerApp.groovy">
@@ -545,7 +508,7 @@
     <entry file="file://$PROJECT_DIR$/src/dataConnection.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CustomerApplication/mainScript.groovy">
+    <entry file="file://$PROJECT_DIR$/src/MainApp/mainScript.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
@@ -589,20 +552,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/asahi/customerDetails/dao/CustomerDao.groovy">
+    <entry file="file://$PROJECT_DIR$/src/com/asahi/customerDetails/entity/Customer.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="111" column="40" lean-forward="true" selection-start-line="111" selection-start-column="40" selection-end-line="111" selection-end-column="40" />
-          <folding>
-            <element signature="e#39#87#0" expanded="true" />
-          </folding>
+        <state>
+          <caret column="40" lean-forward="true" selection-start-column="40" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/asahi/customerDetails/entity/Customer.groovy">
+    <entry file="file://$PROJECT_DIR$/src/com/asahi/customerDetails/dao/CustomerDao.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        <state relative-caret-position="342">
+          <caret line="98" lean-forward="true" selection-start-line="98" selection-end-line="98" />
+          <folding>
+            <element signature="e#39#87#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,4 +1,4 @@
-package CustomerApplication
+package MainApp
 
 import com.asahi.customerDetails.view.CustomerApp
 
